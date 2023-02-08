@@ -5,3 +5,6 @@ Instead of giving aways their belongings to anyone at any price, they could put 
 To make app up and running, seller has to some amount then only the ad will be displayed on the app. 
 The app has following features: sign in, sign up and forgot password, adding product, deleting product, making payment, showing product details etc.
 
+# Screenshots
+![Screenshot 1](https://github.com/ChandanKr16/sell-my-stuff-android/blob/main/screenshots/screenshot%201.png)
+
