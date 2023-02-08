@@ -7,4 +7,5 @@ The app has following features: sign in, sign up and forgot password, adding pro
 
 # Screenshots
 ![Screenshot 1](https://github.com/ChandanKr16/sell-my-stuff-android/blob/main/screenshots/screenshot%201.png)
-
+<br>
+![Screenshot 1](https://github.com/ChandanKr16/sell-my-stuff-android/blob/main/screenshots/screenshot%202.png)
