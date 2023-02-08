@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1016871104539",
+    "firebase_url": "https://sell-my-stuff-cdd3a-default-rtdb.firebaseio.com",
+    "project_id": "sell-my-stuff-cdd3a",
+    "storage_bucket": "sell-my-stuff-cdd3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016871104539:android:15de75b79de3e995ba88be",
+        "android_client_info": {
+          "package_name": "com.chandankumar.sellmystuff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016871104539-9elufdbmpvja0c6ug80kc5jkke4v39op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCemVtmYkO2bFuFqKe9CcenuQZTPOYojNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016871104539-9elufdbmpvja0c6ug80kc5jkke4v39op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

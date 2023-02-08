@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterActivity">
+
+  <LinearLayout
+      android:padding="16dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <com.airbnb.lottie.LottieAnimationView
+          android:layout_gravity="center"
+          android:layout_width="180dp"
+          android:layout_height="180dp"
+          android:id="@+id/animation_view"
+          app:lottie_rawRes="@raw/shoppin_cart"
+          app:lottie_autoPlay="true"
+          app:lottie_loop="true"/>
+
+      <TextView
+          android:textStyle="bold"
+          android:layout_marginTop="32dp"
+          android:textColor="#000"
+          android:textSize="18dp"
+          android:textAlignment="center"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Create an account to get started" />
+
+
+      <EditText
+          android:inputType="textPersonName"
+          android:drawablePadding="8dp"
+          android:drawableLeft="@drawable/ic_baseline_person_24"
+          android:id="@+id/nameEditText"
+          android:layout_marginTop="32dp"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:padding="8dp"
+          android:background="@drawable/round_border"
+          android:hint="Enter Name"/>
+
+
+      <EditText
+          android:inputType="textEmailAddress"
+          android:drawablePadding="8dp"
+          android:drawableLeft="@drawable/ic_baseline_email_24"
+          android:id="@+id/emailEditText"
+          android:layout_marginTop="16dp"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:padding="8dp"
+          android:background="@drawable/round_border"
+          android:hint="Enter Email Id"/>
+
+      <EditText
+          android:inputType="phone"
+          android:drawablePadding="8dp"
+          android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+          android:id="@+id/phoneEditText"
+          android:layout_marginTop="16dp"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:padding="8dp"
+          android:background="@drawable/round_border"
+          android:hint="Enter Phone No."/>
+
+
+      <EditText
+          android:drawablePadding="8dp"
+          android:drawableLeft="@drawable/ic_baseline_lock_24"
+          android:id="@+id/passwordEditText"
+          android:layout_marginTop="16dp"
+          android:inputType="textPassword"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:padding="8dp"
+          android:background="@drawable/round_border"
+          android:hint="Enter Password"/>
+
+      <EditText
+          android:drawablePadding="8dp"
+          android:drawableLeft="@drawable/ic_baseline_lock_24"
+          android:id="@+id/confirmPasswordEditText"
+          android:layout_marginTop="16dp"
+          android:inputType="textPassword"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:padding="8dp"
+          android:background="@drawable/round_border"
+          android:hint="Re-enter Password"/>
+
+      <Button
+          android:id="@+id/registerButton"
+          android:layout_marginTop="16dp"
+          android:text="Sign Up"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="8dp" />
+  </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

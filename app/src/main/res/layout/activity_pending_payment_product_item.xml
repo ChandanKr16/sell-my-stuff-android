@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PendingPaymentProductItemActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/productImageViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/productNameTextView"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"/>
+
+        <TextView
+            android:id="@+id/productDescriptionTextView"
+            android:textSize="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TableLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:src="@drawable/money_bag"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:textSize="16dp"
+                    android:id="@+id/productPriceTextView"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:src="@drawable/filled_web"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:id="@+id/productWeightTextView"
+                    android:textSize="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:id="@+id/productUserNameTextView"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="16dp"
+                    android:text="Chandan Kumar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_baseline_local_phone_24"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:id="@+id/productPhoneTextView"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="16dp"
+                    android:text="+91-9810724226"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_baseline_email_24"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:id="@+id/productEmailTextView"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="16dp"
+                    android:text="chandan.kumar2021@vitstudent.ac.in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:src="@drawable/whatsapp_big"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+
+                <TextView
+                    android:id="@+id/productWhatsappTextView"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="16dp"
+                    android:text="+91-9810724226"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:text="Pay 20 Rs"
+            android:id="@+id/paymentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

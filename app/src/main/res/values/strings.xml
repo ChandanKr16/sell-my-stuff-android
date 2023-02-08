@@ -1,0 +1,44 @@
+<resources>
+
+    <string-array name="product_category">
+        <item>Electronics</item>
+        <item>Books</item>
+        <item>Furniture</item>
+        <item>Stationary</item>
+        <item>Fashion</item>
+        <item>Utensils</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="app_name">SellMyStuff</string>
+    <string name="name_error">Name can\'t be empty and must have atleast 3 chars</string>
+    <string name="email_error">Invalid email only vit.ac.in or vitstudent.ac.in are valid</string>
+    <string name="phone_error">Invalid phone number</string>
+    <string name="password_error">Password can\'t be empty and must have atleast 6 chars</string>
+    <string name="confirm_password_error">Confirm-password did not match</string>
+    <string name="account_created_success">Account Created Successfully, An Email Verification link has been sent to your email id. Check spam folder.</string>
+    <string name="creating_account_dialog_message">Please wait, while we are creating your account...</string>
+    <string name="is_email_verified">Email is not verified!</string>
+    <string name="signin_dialog_message">Please wait, while we are trying to get you in...</string>
+    <string name="email_sent_message">\"An email verification link has been sent on \"</string>
+    <string name="title_activity_main">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="logout">Logout</string>
+    <string name="add_product">Add Product</string>
+    <string name="pending_payment">Pending Payment</string>
+    <string name="my_products">My Products</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddProductFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <ImageView
+             android:scaleType="fitCenter"
+             android:id="@+id/productOneImageView"
+             android:layout_marginTop="4dp"
+             android:layout_marginBottom="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginRight="8dp"
+             android:padding="16dp"
+             android:background="@drawable/dashed_round_border"
+             android:layout_columnWeight="2"
+             android:src="@drawable/ic_baseline_cloud_upload_24"
+             android:layout_gravity="center"
+             android:layout_width="150dp"
+             android:layout_height="150dp"/>
+
+         <ImageView
+             android:scaleType="fitCenter"
+             android:id="@+id/productTwoImageView"
+             android:layout_marginTop="4dp"
+             android:padding="16dp"
+             android:background="@drawable/dashed_round_border"
+             android:layout_marginBottom="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_columnWeight="2"
+             android:src="@drawable/ic_baseline_cloud_upload_24"
+             android:layout_gravity="center"
+             android:layout_width="150dp"
+             android:layout_height="150dp"/>
+
+     </LinearLayout>
+
+
+        <EditText
+            android:inputType="textPersonName"
+            android:drawablePadding="8dp"
+            android:id="@+id/productNameEditText"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:background="@drawable/round_border"
+            android:hint="Name"/>
+
+        <Spinner
+            android:entries="@array/product_category"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_border"
+            android:id="@+id/productCategorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:drawablePadding="8dp"
+            android:id="@+id/priceEditText"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:background="@drawable/round_border"
+            android:hint="Price"/>
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:drawablePadding="8dp"
+            android:id="@+id/weightEditText"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:background="@drawable/round_border"
+            android:hint="Weight"/>
+
+
+        <EditText
+            android:lines="8"
+            android:gravity="top|start"
+            android:scrollbars="vertical"
+            android:minLines="6"
+            android:inputType="textMultiLine"
+            android:drawablePadding="8dp"
+            android:id="@+id/descriptionEditText"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/round_border"
+            android:hint="Description"/>
+
+        <Button
+            android:id="@+id/addProductButton"
+            android:layout_marginTop="16dp"
+            android:text="Add Product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.core.widget.NestedScrollView>

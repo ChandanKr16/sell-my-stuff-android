@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/productCardView"
+    android:layout_margin="8dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    card_view:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_cloud_upload_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:id="@+id/productNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="4dp"
+            android:text="This is a title"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/productImageView" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/productFavoriteImageView"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            card_view:layout_constraintBottom_toBottomOf="parent"-->
+<!--            card_view:layout_constraintEnd_toEndOf="parent"-->
+<!--            card_view:layout_constraintTop_toBottomOf="@+id/productImageView"-->
+<!--            card_view:srcCompat="@drawable/ic_outline_favorite_border_24" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.chandankumar.sellmystuff.ui.SlantedLabel
+        android:id="@+id/money"
+        android:elevation="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+</androidx.cardview.widget.CardView>
